@@ -1,2 +1,3 @@
 # Dashboard
-Angular dashboard example
+
+Dashboard en angular 18 con tailwindCSS
