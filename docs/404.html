@@ -8,6 +8,11 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
+    <script>
+      // Redirige al index.html para que Angular maneje las rutas
+      window.location.href =
+        "/Dashboard/" + window.location.pathname.substring(1);
+    </script>
     <app-root></app-root>
   </body>
 </html>
